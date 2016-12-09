@@ -61,7 +61,7 @@ var passwords = prompt("Password? ", { secure: true });
 ## Examples
 A full example is the following:
 
-```
+```js
 var prompt = require('syncprompt');
 
 var username = prompt("Username: ");

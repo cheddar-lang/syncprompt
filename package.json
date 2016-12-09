@@ -1,6 +1,6 @@
 {
   "name": "syncprompt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A synchronous prompt for node.js",
   "main": "index.js",
   "dependencies": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/cheddar-lang/syncprompt#readme",
   "license": "MIT",
   "gypfile": true,
-  "keyword": [
+  "keywords": [
       "synchronous",
       "sync",
       "prompt",
