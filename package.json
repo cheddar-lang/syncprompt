@@ -1,0 +1,39 @@
+{
+  "name": "syncprompt",
+  "version": "0.0.1",
+  "description": "A synchronous prompt for node.js",
+  "main": "index.js",
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build",
+    "configure": "node-gyp configure"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheddar-lang/syncprompt.git"
+  },
+  "author": "Vihan B <vihan@vihan.org> (vihan.org)",
+  "bugs": {
+    "url": "https://github.com/cheddar-lang/syncprompt/issues"
+  },
+  "homepage": "https://github.com/cheddar-lang/syncprompt#readme",
+  "license": "MIT",
+  "gypfile": true,
+  "keyword": [
+      "synchronous",
+      "sync",
+      "prompt",
+      "cli",
+      "stdin",
+      "readline",
+      "read",
+      "get",
+      "input",
+      "io",
+      "line"
+  ]
+}
