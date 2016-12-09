@@ -1,6 +1,6 @@
 {
   "name": "syncprompt",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A synchronous prompt for node.js",
   "main": "index.js",
   "dependencies": {
