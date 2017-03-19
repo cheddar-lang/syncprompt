@@ -1,5 +1,4 @@
-var sync_prompt = require("./build/Release/sync_prompt.node");
-
+var sync_prompt = require("bindings")("sync_prompt.node");
 
 module.exports = function(prompt, options) {
     if (prompt) process.stdout.write(prompt);

@@ -1,9 +1,10 @@
 {
   "name": "syncprompt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A synchronous prompt for node.js",
   "main": "index.js",
   "dependencies": {
+    "bindings": "^1.2.1",
     "nan": "^2.4.0"
   },
   "scripts": {
@@ -24,16 +25,16 @@
   "license": "MIT",
   "gypfile": true,
   "keywords": [
-      "synchronous",
-      "sync",
-      "prompt",
-      "cli",
-      "stdin",
-      "readline",
-      "read",
-      "get",
-      "input",
-      "io",
-      "line"
+    "synchronous",
+    "sync",
+    "prompt",
+    "cli",
+    "stdin",
+    "readline",
+    "read",
+    "get",
+    "input",
+    "io",
+    "line"
   ]
 }
