@@ -9,7 +9,7 @@ module.exports = function(prompt, options) {
     sync_prompt.set_echo(setEcho);
 
     var res = sync_prompt.sync_prompt();
-    sync_prompt.set_echo(false);
+    sync_prompt.set_echo(true);
 
     return res;
 }
