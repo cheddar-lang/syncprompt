@@ -41,18 +41,14 @@ void setStdinEcho(bool res) {
 #endif
 }
 
-// Basic prompt function
-std::string syncPrompt() {
-    std::string out;
-    std::getline(std::cin, out);
-
-    return out;
-}
-
 // Bindings
 NAN_METHOD(syncPrompt) {
-    std::string res = syncPrompt();
-    info.GetReturnValue().Set(Nan::New<v8::String>( res ).ToLocalChecked());
+    std::string res;
+    if (std::getline(std::cin, res)) {
+        info.GetReturnValue().Set(Nan::New<v8::String>( res ).ToLocalChecked());
+    } else {
+        info.GetReturnValue().Set(Nan::Null());
+    }
 }
 
 NAN_METHOD(setEcho) {
